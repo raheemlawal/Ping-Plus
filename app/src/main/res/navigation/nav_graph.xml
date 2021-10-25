@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.pingplus.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/tocreate"
+            app:destination="@id/createFragment" />
+        <action
+            android:id="@+id/tofind"
+            app:destination="@id/findFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createFragment"
+        android:name="com.example.pingplus.CreateFragment"
+        android:label="fragment_create"
+        tools:layout="@layout/fragment_create" >
+        <action
+            android:id="@+id/tohome"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/findFragment"
+        android:name="com.example.pingplus.FindFragment"
+        android:label="fragment_find"
+        tools:layout="@layout/fragment_find" >
+        <action
+            android:id="@+id/tohome"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
