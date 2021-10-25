@@ -12,6 +12,8 @@ Games are retrieved from Firebase
 
 Games location can be seen in Google Maps when item is clicked on
 
+https://www.youtube.com/watch?v=QMPbNNPof6Y
+
 
 ![Screen Shot 2021-10-25 at 1 53 09 PM](https://user-images.githubusercontent.com/76723523/138769363-639a869b-829b-48fd-b11e-6314bbce975c.png)
 
